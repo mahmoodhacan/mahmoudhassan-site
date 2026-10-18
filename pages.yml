@@ -1,0 +1,157 @@
+media:
+  input: assets
+  output: /assets
+content:
+- name: homepage_en
+  label: Homepage EN
+  type: file
+  path: content/en.json
+  fields:
+  - name: nav
+    label: Navigation labels (5)
+    type: string
+    list: true
+  - &id001
+    name: role
+    label: Professional subtitle
+    type: string
+  - &id002
+    name: intro
+    label: Biography — first paragraph
+    type: text
+  - &id003
+    name: second
+    label: Biography — second paragraph
+    type: text
+  - &id004
+    name: research
+    label: Research heading
+    type: string
+  - &id005
+    name: topics
+    label: Research themes
+    type: object
+    list: true
+    fields:
+    - name: title
+      type: string
+      label: Title
+    - name: description
+      type: text
+      label: Description
+  - &id006
+    name: pubs
+    label: Publications heading
+    type: string
+  - &id007
+    name: pubnote
+    label: Publication note
+    type: text
+  - &id008
+    name: pubbutton
+    label: Scholar link label
+    type: string
+  - &id009
+    name: translation
+    label: Translation heading
+    type: string
+  - &id010
+    name: trans_text
+    label: Translation text
+    type: text
+  - &id011
+    name: trans_link
+    label: MINDIG link label
+    type: string
+  - &id012
+    name: writing
+    label: Writing heading
+    type: string
+  - &id013
+    name: book
+    label: Book title
+    type: string
+  - &id014
+    name: book_text
+    label: Book description
+    type: text
+  - &id015
+    name: book_note
+    label: Book placeholder note
+    type: text
+  - &id016
+    name: contact
+    label: Contact heading
+    type: string
+  - &id017
+    name: contacttext
+    label: Contact text
+    type: text
+  - &id018
+    name: copyright
+    label: Footer line
+    type: string
+- name: homepage_ar
+  label: Homepage AR
+  type: file
+  path: content/ar.json
+  fields:
+  - name: nav
+    label: Navigation labels (5)
+    type: string
+    list: true
+  - *id001
+  - *id002
+  - *id003
+  - *id004
+  - *id005
+  - *id006
+  - *id007
+  - *id008
+  - *id009
+  - *id010
+  - *id011
+  - *id012
+  - *id013
+  - *id014
+  - *id015
+  - *id016
+  - *id017
+  - *id018
+- name: settings
+  label: Links & images
+  type: file
+  path: content/settings.json
+  fields:
+  - name: email
+    label: Work email
+    type: string
+    required: false
+  - name: personal_email
+    label: Personal email
+    type: string
+    required: false
+  - name: mindig_url
+    label: MINDIG URL
+    type: string
+    required: false
+  - name: scholar_url
+    label: Google Scholar URL
+    type: string
+    required: false
+  - name: linkedin_url
+    label: LinkedIn URL
+    type: string
+    required: false
+  - name: book_url
+    label: Book purchase URL
+    type: string
+    required: false
+  - name: book_cover
+    label: Real book cover
+    type: image
+    required: false
+  - name: portrait
+    label: Portrait photo
+    type: image
+    required: false
