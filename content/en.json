@@ -1,0 +1,40 @@
+{
+  "nav": [
+    "About",
+    "Research",
+    "Publications",
+    "Writing",
+    "Contact"
+  ],
+  "role": "Neuroscientist · Entrepreneur · Author",
+  "intro": "I am a neuroscientist working at the intersection of brain electrophysiology, computational modeling, and clinical neuroscience. My research focuses on brain networks, individual variability, and the development of quantitative methods for precision neurology and psychiatry.",
+  "second": "Alongside academic research, I founded MINDIG to help translate advances in EEG analysis into clinically meaningful applications. I also write about neuroscience for audiences beyond academia.",
+  "research": "Research interests",
+  "topics": [
+    [
+      "Brain electrophysiology & networks",
+      "Exploring large-scale brain dynamics and connectivity using EEG and computational approaches."
+    ],
+    [
+      "Normative modeling",
+      "Understanding individual differences beyond group-level averages, with an emphasis on robust reference models."
+    ],
+    [
+      "Precision neurology & psychiatry",
+      "Investigating the reproducibility and clinical value of individualized EEG biomarkers."
+    ]
+  ],
+  "pubs": "Selected publications",
+  "pubnote": "Selected peer-reviewed papers will appear here once their citations and DOI links have been verified.",
+  "pubbutton": "View publications on Google Scholar ↗",
+  "translation": "From research to practice",
+  "trans_text": "I founded MINDIG to connect computational neuroscience with real clinical and translational needs, particularly through high-density EEG and individualized brain analysis.",
+  "trans_link": "Visit MINDIG ↗",
+  "writing": "Beyond the lab · Writing",
+  "book": "Memoirs of a Neuron",
+  "book_text": "مذكرات خلية عصبية is a science-inspired literary journey narrated through the voice of a neuron. The book opens the world of the brain to curious readers through storytelling.",
+  "book_note": "The original book cover and purchasing links will be added here.",
+  "contact": "Contact",
+  "contacttext": "For research collaborations, scientific talks, and conversations about the brain and science writing.",
+  "copyright": "Research · Translation · Science writing"
+}
