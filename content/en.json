@@ -6,23 +6,14 @@
     "Writing",
     "Contact"
   ],
-  "role": "Neuroscientist · Entrepreneur · Author",
+  "role": "Neuroscientist · Entrepreneur · Science Writer",
   "intro": "I am a neuroscientist working at the intersection of brain electrophysiology, computational modeling, and clinical neuroscience. My research focuses on brain networks, individual variability, and the development of quantitative methods for precision neurology and psychiatry.",
   "second": "Alongside academic research, I founded MINDIG to help translate advances in EEG analysis into clinically meaningful applications. I also write about neuroscience for audiences beyond academia.",
   "research": "Research interests",
   "topics": [
-    [
-      "Brain electrophysiology & networks",
-      "Exploring large-scale brain dynamics and connectivity using EEG and computational approaches."
-    ],
-    [
-      "Normative modeling",
-      "Understanding individual differences beyond group-level averages, with an emphasis on robust reference models."
-    ],
-    [
-      "Precision neurology & psychiatry",
-      "Investigating the reproducibility and clinical value of individualized EEG biomarkers."
-    ]
+    {},
+    {},
+    {}
   ],
   "pubs": "Selected publications",
   "pubnote": "Selected peer-reviewed papers will appear here once their citations and DOI links have been verified.",
