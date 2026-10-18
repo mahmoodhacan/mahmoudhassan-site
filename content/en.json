@@ -11,9 +11,18 @@
   "second": "As a neuroscientist, I focus on brain electrophysiology, computational modeling, and precision neuroscience. As an entrepreneur, I founded MINDIG to bridge research and clinical practice. As an author, I explore science communication through writing and storytelling, making neuroscience accessible to a broader audience.",
   "research": "Research interests",
   "topics": [
-    {},
-    {},
-    {}
+    {
+      "title": "Brain Electrophysiology & Network Dynamics",
+      "description": "Understanding how large-scale brain networks emerge, interact, and reorganize over time using EEG and computational approaches."
+    },
+    {
+      "title": "Individual Brain Variability & Normative Modeling",
+      "description": "Moving beyond group averages to characterize individual brain organization and variability, with a focus on normative modeling and personalized brain assessment."
+    },
+    {
+      "title": "Precision Neurology & Psychiatry",
+      "description": "Translating quantitative brain measures into robust, reproducible, and clinically meaningful tools for understanding neurological and psychiatric conditions at the individual level."
+    }
   ],
   "pubs": "Selected publications",
   "pubnote": "Selected peer-reviewed papers will appear here once their citations and DOI links have been verified.",
